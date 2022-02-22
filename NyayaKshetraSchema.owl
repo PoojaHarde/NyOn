@@ -1,1981 +1,1981 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://github.com/PoojaHarde/NyayaKshetraSchema/"
+     xml:base="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://github.com/PoojaHarde/NyayaKshetraSchema/">
-    <Prefix name="" IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto"/>
+     ontologyIRI="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema">
+    <Prefix name="" IRI="https://github.com/PoojaHarde/NyayaKshetraSchema/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="Writ_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOntoWrit_Jurisdiction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Accussed"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Accussed"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Acts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Acts"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Advisory_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Advisory_Jurisdiction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Apex_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Apex_Court"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Appeal"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appeal"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Appellant"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appellant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Appellant_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appellant_Jurisdiction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Author"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Author"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Bench"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Case"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Case_Type"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case_Type"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Chief_Meterpolitan_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Chief_Meterpolitan_Court"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#City_Civil_Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#City_Civil_Courts"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Civil"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Civil"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Country"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Country"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Court_Decision"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Court_Decision"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Court_Judgements"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Court_Judgements"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Courts_for_Civil"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Civil"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Courts_for_Criminal"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Criminal"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Courts_of_Smaller_Causes"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_of_Smaller_Causes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Criminal"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Criminal"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#District"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#District"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#District_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#District_Court"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#District_Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#District_Courts"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Division_Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Division_Bench"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Documents"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Documents"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Evidence"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Evidence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FIR"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#FIR"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Government"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Government"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Group"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Group"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#High_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#High_Court"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Individual"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Individual"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Investigator"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Investigator"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Judge"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judge"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Judgement"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judgement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Jurisdiction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Larger_Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Larger_Bench"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Legal_Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Legal_Participants"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Location"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Location"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Metropolitan_Magistrate_Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Metropolitan_Magistrate_Courts"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Metropolitian_Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Metropolitian_Courts"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Munsif_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Munsif_Court"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NonLegal_Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#NonLegal_Participants"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Order"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Order"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Organization"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Organization"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Original_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Original_Jurisdiction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Others"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Others"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Participants"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Petition"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Petition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Petitioner"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Petitioner"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Place"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Place"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Plaintiff"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Plaintiff"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Precedent_Case"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Precedent_Case"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Principal_Junior_Civil_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Principal_Junior_Civil_Court"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Respondent"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Respondent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Review_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Review_Jurisdiction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Session_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Session_Court"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Single_Judge"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Single_Judge"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Solicitor"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Solicitor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Special_Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Special_Bench"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#State"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#State"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sub_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Sub_Court"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Taluka"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Taluka"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Tribunal_Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Tribunal_Bench"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Tribunals"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Tribunals"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Witness"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Witness"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Judicial_Magistrate_Court(First_Class)"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judicial_Magistrate_Court(First_Class)"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Judicial_Magistrate_Court(Second_Class)"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judicial_Magistrate_Court(Second_Class)"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="hasWritJurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOntohasWritJurisdiction"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#caseBelongsToType"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#caseBelongsToType"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#documentType"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#documentType"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasActs"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasActs"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasAdvisoryJurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAdvisoryJurisdiction"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasAppellantJurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAppellantJurisdiction"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasAuthor"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAuthor"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasBench"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasBench"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasCourtDecision"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourtDecision"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasCourts"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourts"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasEvidenceLocation"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasEvidenceLocation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasEvidences"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasEvidences"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasIndividual"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasIndividual"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasLegalParticipants"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasLegalParticipants"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasLocation"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasLocation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasNonLegalParticipants"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasNonLegalParticipants"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasOriginalJurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOriginalJurisdiction"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasParticipantType"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasParticipantType"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasPrecedentCase"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasPrecedentCase"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasReviewJurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasReviewJurisdiction"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isA"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#isA"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="stateName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOntostateName"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#GovernmentName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#GovernmentName"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasCaseName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCaseName"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasCaseNumber"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCaseNumber"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasCourtDecisionDate"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourtDecisionDate"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasJudgement"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasJudgement"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasOrder"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOrder"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#individualName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#individualName"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#locatedAt"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#locatedAt"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#organizationName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#organizationName"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Attempt_to_Commit_Murder"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Attempt_to_Commit_Murder"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Attempt_to_commit_Culpable_Homicide"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Attempt_to_commit_Culpable_Homicide"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Causing_death_by_negligence"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Causing_death_by_negligence"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Culpable_homicide_not_amounting_to_murder"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Culpable_homicide_not_amounting_to_murder"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Grievous_hurt"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Grievous_hurt"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Human_trafficking"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Human_trafficking"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Murder"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Murder"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Causing_injuries_due_to_rash_driving/rode_rage"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Causing_injuries_due_to_rash_driving/rode_rage"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Kidnapping_&amp;_Abduction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Kidnapping_&amp;_Abduction"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="Writ_Jurisdiction"/>
-        <Class IRI="#Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOntoWrit_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Jurisdiction"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Accussed"/>
-        <Class IRI="#NonLegal_Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Accussed"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#NonLegal_Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Advisory_Jurisdiction"/>
-        <Class IRI="#Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Advisory_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Jurisdiction"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Apex_Court"/>
-        <Class IRI="#Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Apex_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Appeal"/>
-        <Class IRI="#Documents"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appeal"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Documents"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Appellant"/>
-        <Class IRI="#NonLegal_Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appellant"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#NonLegal_Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Appellant_Jurisdiction"/>
-        <Class IRI="#Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appellant_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Jurisdiction"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Chief_Meterpolitan_Court"/>
-        <Class IRI="#Courts_for_Criminal"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Chief_Meterpolitan_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Criminal"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#City_Civil_Courts"/>
-        <Class IRI="#Courts_for_Civil"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#City_Civil_Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Civil"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Civil"/>
-        <Class IRI="#Case_Type"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Civil"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case_Type"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Country"/>
-        <Class IRI="#Location"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Country"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Court_Judgements"/>
-        <Class IRI="#Documents"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Court_Judgements"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Documents"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Courts_for_Civil"/>
-        <Class IRI="#Case_Type"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Civil"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case_Type"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Courts_for_Criminal"/>
-        <Class IRI="#Case_Type"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Criminal"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case_Type"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Courts_of_Smaller_Causes"/>
-        <Class IRI="#Courts_for_Civil"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_of_Smaller_Causes"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Civil"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Criminal"/>
-        <Class IRI="#Case_Type"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Criminal"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case_Type"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#District"/>
-        <Class IRI="#Location"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#District"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#District_Court"/>
-        <Class IRI="#Courts_for_Civil"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#District_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Civil"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#District_Courts"/>
-        <Class IRI="#Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#District_Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Division_Bench"/>
-        <Class IRI="#Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Division_Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Bench"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#FIR"/>
-        <Class IRI="#Documents"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#FIR"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Documents"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Government"/>
-        <Class IRI="#Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Government"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Group"/>
-        <Class IRI="#Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Group"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#High_Court"/>
-        <Class IRI="#Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#High_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Individual"/>
-        <Class IRI="#Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Individual"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Investigator"/>
-        <Class IRI="#Legal_Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Investigator"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Legal_Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Judge"/>
-        <Class IRI="#Legal_Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judge"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Legal_Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Judgement"/>
-        <Class IRI="#Court_Decision"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judgement"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Court_Decision"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Larger_Bench"/>
-        <Class IRI="#Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Larger_Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Bench"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Metropolitan_Magistrate_Courts"/>
-        <Class IRI="#Courts_for_Criminal"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Metropolitan_Magistrate_Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Criminal"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Metropolitian_Courts"/>
-        <Class IRI="#Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Metropolitian_Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Munsif_Court"/>
-        <Class IRI="#Courts_for_Civil"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Munsif_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Civil"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Order"/>
-        <Class IRI="#Court_Decision"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Order"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Court_Decision"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Organization"/>
-        <Class IRI="#Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Organization"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Original_Jurisdiction"/>
-        <Class IRI="#Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Original_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Jurisdiction"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Others"/>
-        <Class IRI="#Documents"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Others"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Documents"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Petition"/>
-        <Class IRI="#Documents"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Petition"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Documents"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Petitioner"/>
-        <Class IRI="#NonLegal_Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Petitioner"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#NonLegal_Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Place"/>
-        <Class IRI="#Location"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Place"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Plaintiff"/>
-        <Class IRI="#NonLegal_Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Plaintiff"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#NonLegal_Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Principal_Junior_Civil_Court"/>
-        <Class IRI="#Courts_for_Civil"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Principal_Junior_Civil_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Civil"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Respondent"/>
-        <Class IRI="#NonLegal_Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Respondent"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#NonLegal_Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Review_Jurisdiction"/>
-        <Class IRI="#Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Review_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Jurisdiction"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Session_Court"/>
-        <Class IRI="#Courts_for_Criminal"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Session_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Criminal"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Single_Judge"/>
-        <Class IRI="#Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Single_Judge"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Bench"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Solicitor"/>
-        <Class IRI="#Legal_Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Solicitor"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Legal_Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Special_Bench"/>
-        <Class IRI="#Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Special_Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Bench"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#State"/>
-        <Class IRI="#Location"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#State"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#State"/>
-        <Class IRI="#Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#State"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Sub_Court"/>
-        <Class IRI="#Courts_for_Civil"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Sub_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Civil"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Taluka"/>
-        <Class IRI="#Location"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Taluka"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Location"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Tribunal_Bench"/>
-        <Class IRI="#Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Tribunal_Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Bench"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Tribunals"/>
-        <Class IRI="#Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Tribunals"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Witness"/>
-        <Class IRI="#NonLegal_Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Witness"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#NonLegal_Participants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Judicial_Magistrate_Court(First_Class)"/>
-        <Class IRI="#Courts_for_Criminal"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judicial_Magistrate_Court(First_Class)"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Criminal"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Judicial_Magistrate_Court(Second_Class)"/>
-        <Class IRI="#Courts_for_Criminal"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judicial_Magistrate_Court(Second_Class)"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Criminal"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="#Accussed"/>
-        <Class IRI="#Appellant"/>
-        <Class IRI="#Petitioner"/>
-        <Class IRI="#Plaintiff"/>
-        <Class IRI="#Respondent"/>
-        <Class IRI="#Witness"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Accussed"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appellant"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Petitioner"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Plaintiff"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Respondent"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Witness"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Acts"/>
-        <Class IRI="#Author"/>
-        <Class IRI="#Bench"/>
-        <Class IRI="#Case"/>
-        <Class IRI="#Case_Type"/>
-        <Class IRI="#Court_Decision"/>
-        <Class IRI="#Courts"/>
-        <Class IRI="#Documents"/>
-        <Class IRI="#Evidence"/>
-        <Class IRI="#Jurisdiction"/>
-        <Class IRI="#Legal_Participants"/>
-        <Class IRI="#Location"/>
-        <Class IRI="#NonLegal_Participants"/>
-        <Class IRI="#Participants"/>
-        <Class IRI="#Precedent_Case"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Acts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Author"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Bench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case_Type"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Court_Decision"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Documents"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Evidence"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Legal_Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Location"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#NonLegal_Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Participants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Precedent_Case"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Advisory_Jurisdiction"/>
-        <Class IRI="#Appellant_Jurisdiction"/>
-        <Class IRI="#Original_Jurisdiction"/>
-        <Class IRI="#Review_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Advisory_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appellant_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Original_Jurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Review_Jurisdiction"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Appeal"/>
-        <Class IRI="#Court_Judgements"/>
-        <Class IRI="#FIR"/>
-        <Class IRI="#Others"/>
-        <Class IRI="#Petition"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appeal"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Court_Judgements"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#FIR"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Others"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Petition"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Chief_Meterpolitan_Court"/>
-        <Class IRI="#Metropolitan_Magistrate_Courts"/>
-        <Class IRI="#Session_Court"/>
-        <Class IRI="#Judicial_Magistrate_Court(First_Class)"/>
-        <Class IRI="#Judicial_Magistrate_Court(Second_Class)"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Chief_Meterpolitan_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Metropolitan_Magistrate_Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Session_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judicial_Magistrate_Court(First_Class)"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judicial_Magistrate_Court(Second_Class)"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#City_Civil_Courts"/>
-        <Class IRI="#Courts_of_Smaller_Causes"/>
-        <Class IRI="#District_Court"/>
-        <Class IRI="#Munsif_Court"/>
-        <Class IRI="#Principal_Junior_Civil_Court"/>
-        <Class IRI="#Sub_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#City_Civil_Courts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_of_Smaller_Causes"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#District_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Munsif_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Principal_Junior_Civil_Court"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Sub_Court"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Civil"/>
-        <Class IRI="#Criminal"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Civil"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Criminal"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Country"/>
-        <Class IRI="#District"/>
-        <Class IRI="#Place"/>
-        <Class IRI="#State"/>
-        <Class IRI="#Taluka"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Country"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#District"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Place"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#State"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Taluka"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Government"/>
-        <Class IRI="#Group"/>
-        <Class IRI="#Individual"/>
-        <Class IRI="#Organization"/>
-        <Class IRI="#State"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Government"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Group"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Individual"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Organization"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#State"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Investigator"/>
-        <Class IRI="#Judge"/>
-        <Class IRI="#Solicitor"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Investigator"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judge"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Solicitor"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Judgement"/>
-        <Class IRI="#Order"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judgement"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Order"/>
     </DisjointClasses>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#caseBelongsToType"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#caseBelongsToType"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#documentType"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#documentType"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasActs"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasActs"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasAdvisoryJurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAdvisoryJurisdiction"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasAppellantJurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAppellantJurisdiction"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasAuthor"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAuthor"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasBench"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasBench"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasCourtDecision"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourtDecision"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasCourts"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourts"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasEvidences"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasEvidences"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasLegalParticipants"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasLegalParticipants"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasNonLegalParticipants"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasNonLegalParticipants"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasOriginalJurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOriginalJurisdiction"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasPrecedentCase"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasPrecedentCase"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasReviewJurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasReviewJurisdiction"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#caseBelongsToType"/>
-        <Class IRI="#Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#caseBelongsToType"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#documentType"/>
-        <Class IRI="#Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#documentType"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasActs"/>
-        <Class IRI="#Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasActs"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasAdvisoryJurisdiction"/>
-        <Class IRI="#Apex_Court"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAdvisoryJurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Apex_Court"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasAppellantJurisdiction"/>
-        <Class IRI="#Apex_Court"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAppellantJurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Apex_Court"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasAppellantJurisdiction"/>
-        <Class IRI="#High_Court"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAppellantJurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#High_Court"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasAuthor"/>
-        <Class IRI="#Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAuthor"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasBench"/>
-        <Class IRI="#Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasBench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasCourtDecision"/>
-        <Class IRI="#Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourtDecision"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasCourts"/>
-        <Class IRI="#Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasEvidenceLocation"/>
-        <Class IRI="#Evidence"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasEvidenceLocation"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Evidence"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasEvidences"/>
-        <Class IRI="#Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasEvidences"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasIndividual"/>
-        <Class IRI="#Group"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasIndividual"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Group"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasLegalParticipants"/>
-        <Class IRI="#Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasLegalParticipants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasLocation"/>
-        <Class IRI="#Courts"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasLocation"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasNonLegalParticipants"/>
-        <Class IRI="#Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasNonLegalParticipants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasOriginalJurisdiction"/>
-        <Class IRI="#Apex_Court"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOriginalJurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Apex_Court"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasOriginalJurisdiction"/>
-        <Class IRI="#High_Court"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOriginalJurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#High_Court"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasParticipantType"/>
-        <Class IRI="#NonLegal_Participants"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasParticipantType"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#NonLegal_Participants"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasPrecedentCase"/>
-        <Class IRI="#Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasPrecedentCase"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasReviewJurisdiction"/>
-        <Class IRI="#Apex_Court"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasReviewJurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Apex_Court"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isA"/>
-        <Class IRI="#Precedent_Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#isA"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Precedent_Case"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#caseBelongsToType"/>
-        <Class IRI="#Case_Type"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#caseBelongsToType"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case_Type"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#documentType"/>
-        <Class IRI="#Court_Judgements"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#documentType"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Court_Judgements"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasActs"/>
-        <Class IRI="#Acts"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasActs"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Acts"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasAdvisoryJurisdiction"/>
-        <Class IRI="#Advisory_Jurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAdvisoryJurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Advisory_Jurisdiction"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasAppellantJurisdiction"/>
-        <Class IRI="#Appellant_Jurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAppellantJurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appellant_Jurisdiction"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasAuthor"/>
-        <Class IRI="#Author"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAuthor"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Author"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasBench"/>
-        <Class IRI="#Bench"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasBench"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Bench"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasCourtDecision"/>
-        <Class IRI="#Court_Decision"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourtDecision"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Court_Decision"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasCourts"/>
-        <Class IRI="#Courts"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourts"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasEvidenceLocation"/>
-        <Class IRI="#Place"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasEvidenceLocation"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Place"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasEvidences"/>
-        <Class IRI="#Evidence"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasEvidences"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Evidence"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasIndividual"/>
-        <Class IRI="#Individual"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasIndividual"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Individual"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasLegalParticipants"/>
-        <Class IRI="#Legal_Participants"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasLegalParticipants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Legal_Participants"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasLocation"/>
-        <Class IRI="#Location"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasLocation"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Location"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasNonLegalParticipants"/>
-        <Class IRI="#NonLegal_Participants"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasNonLegalParticipants"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#NonLegal_Participants"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasOriginalJurisdiction"/>
-        <Class IRI="#Original_Jurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOriginalJurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Original_Jurisdiction"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasParticipantType"/>
-        <Class IRI="#Participants"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasParticipantType"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Participants"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasPrecedentCase"/>
-        <Class IRI="#Precedent_Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasPrecedentCase"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Precedent_Case"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasReviewJurisdiction"/>
-        <Class IRI="#Review_Jurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasReviewJurisdiction"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Review_Jurisdiction"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#isA"/>
-        <Class IRI="#Case"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#isA"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </ObjectPropertyRange>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="#caseBelongsToType"/>
-        <ObjectProperty IRI="#documentType"/>
-        <ObjectProperty IRI="#hasActs"/>
-        <ObjectProperty IRI="#hasAdvisoryJurisdiction"/>
-        <ObjectProperty IRI="#hasAppellantJurisdiction"/>
-        <ObjectProperty IRI="#hasAuthor"/>
-        <ObjectProperty IRI="#hasBench"/>
-        <ObjectProperty IRI="#hasCourtDecision"/>
-        <ObjectProperty IRI="#hasCourts"/>
-        <ObjectProperty IRI="#hasEvidenceLocation"/>
-        <ObjectProperty IRI="#hasEvidences"/>
-        <ObjectProperty IRI="#hasIndividual"/>
-        <ObjectProperty IRI="#hasLegalParticipants"/>
-        <ObjectProperty IRI="#hasLocation"/>
-        <ObjectProperty IRI="#hasNonLegalParticipants"/>
-        <ObjectProperty IRI="#hasOriginalJurisdiction"/>
-        <ObjectProperty IRI="#hasParticipantType"/>
-        <ObjectProperty IRI="#hasPrecedentCase"/>
-        <ObjectProperty IRI="#hasReviewJurisdiction"/>
-        <ObjectProperty IRI="#isA"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#caseBelongsToType"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#documentType"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasActs"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAdvisoryJurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAppellantJurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAuthor"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasBench"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourtDecision"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourts"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasEvidenceLocation"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasEvidences"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasIndividual"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasLegalParticipants"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasLocation"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasNonLegalParticipants"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOriginalJurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasParticipantType"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasPrecedentCase"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasReviewJurisdiction"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#isA"/>
     </DisjointObjectProperties>
     <SubDataPropertyOf>
-        <DataProperty IRI="#GovernmentName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#GovernmentName"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#hasCaseName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCaseName"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#hasCaseNumber"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCaseNumber"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#hasCourtDecisionDate"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourtDecisionDate"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#hasJudgement"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasJudgement"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#hasOrder"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOrder"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#individualName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#individualName"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#locatedAt"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#locatedAt"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#organizationName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#organizationName"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
-        <DataProperty IRI="stateName"/>
-        <Class IRI="#State"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOntostateName"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#State"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#GovernmentName"/>
-        <Class IRI="#Government"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#GovernmentName"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Government"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#hasCaseName"/>
-        <Class IRI="#Case"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCaseName"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#hasCaseNumber"/>
-        <Class IRI="#Case"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCaseNumber"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#hasCourtDecisionDate"/>
-        <Class IRI="#Court_Decision"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourtDecisionDate"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Court_Decision"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#hasJudgement"/>
-        <Class IRI="#Judgement"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasJudgement"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judgement"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#hasOrder"/>
-        <Class IRI="#Order"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOrder"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Order"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#individualName"/>
-        <Class IRI="#Individual"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#individualName"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Individual"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#locatedAt"/>
-        <Class IRI="#Courts"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#locatedAt"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#organizationName"/>
-        <Class IRI="#Organization"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#organizationName"/>
+        <Class IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Organization"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="stateName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOntostateName"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#GovernmentName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#GovernmentName"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#hasCaseName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCaseName"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#hasCourtDecisionDate"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourtDecisionDate"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#hasJudgement"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasJudgement"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#hasOrder"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOrder"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#individualName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#individualName"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#locatedAt"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#locatedAt"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#organizationName"/>
+        <DataProperty IRI="http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#organizationName"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Writ_Jurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOntoWrit_Jurisdiction</IRI>
         <Literal xml:lang="en">jurisdiction type is a writ jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Writ_Jurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOntoWrit_Jurisdiction</IRI>
         <Literal xml:lang="en">Writ Jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>hasWritJurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOntohasWritJurisdiction</IRI>
         <Literal xml:lang="en">property justifies that the jurisdiction of the court is the writ jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>hasWritJurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOntohasWritJurisdiction</IRI>
         <Literal xml:lang="en">hasWritJurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>stateName</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOntostateName</IRI>
         <Literal xml:lang="en">name of the State</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>stateName</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOntostateName</IRI>
         <Literal xml:lang="en">stateName</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Accussed</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Accussed</IRI>
         <Literal xml:lang="en">represents the accused of the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Accussed</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Accussed</IRI>
         <Literal xml:lang="en">Accused</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Acts</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Acts</IRI>
         <Literal xml:lang="en">Acts or Rules common for Civil and Crimnial Law</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Acts</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Acts</IRI>
         <Literal xml:lang="en">Acts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Advisory_Jurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Advisory_Jurisdiction</IRI>
         <Literal xml:lang="en">jurisdiction type is a advisory jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Advisory_Jurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Advisory_Jurisdiction</IRI>
         <Literal xml:lang="en">Advisory Jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Apex_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Apex_Court</IRI>
         <Literal xml:lang="en">Apex Court</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Appeal</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appeal</IRI>
         <Literal xml:lang="en">document is an appeal document</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Appeal</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appeal</IRI>
         <Literal xml:lang="en">Appeal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Appellant</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appellant</IRI>
         <Literal xml:lang="en">represents the appellant of the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Appellant</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appellant</IRI>
         <Literal xml:lang="en">Appellant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Appellant_Jurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appellant_Jurisdiction</IRI>
         <Literal xml:lang="en">jurisdiction type is a appellant jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Appellant_Jurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Appellant_Jurisdiction</IRI>
         <Literal xml:lang="en">Appellant Jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Author</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Author</IRI>
         <Literal xml:lang="en">Author (Judge) who is responsible for a creation of case document</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Author</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Author</IRI>
         <Literal xml:lang="en">Author</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Bench</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Bench</IRI>
         <Literal xml:lang="en">Defines the bench of the case.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Bench</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Bench</IRI>
         <Literal xml:lang="en">Bench</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Case</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case</IRI>
         <Literal xml:lang="en">a legal court case or court decision or case document</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Case</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case</IRI>
         <Literal xml:lang="en">Case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Case_Type</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case_Type</IRI>
         <Literal xml:lang="en">defines the category of the case to which it belongs (Criminal or Civil according to Indian Judicial System)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Case_Type</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Case_Type</IRI>
         <Literal xml:lang="en">Case Type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Chief_Meterpolitan_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Chief_Meterpolitan_Court</IRI>
         <Literal xml:lang="en">lower court at metropolitan level after Sessions Court for criminal cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Chief_Meterpolitan_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Chief_Meterpolitan_Court</IRI>
         <Literal xml:lang="en">Chief Meterpolitan Court</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#City_Civil_Courts</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#City_Civil_Courts</IRI>
         <Literal xml:lang="en">lower court at metropolitan level after High Courts for civil cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#City_Civil_Courts</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#City_Civil_Courts</IRI>
         <Literal xml:lang="en">City Civil Courts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Civil</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Civil</IRI>
         <Literal xml:lang="en">case is a civil case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Civil</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Civil</IRI>
         <Literal xml:lang="en">Civil</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Country</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Country</IRI>
         <Literal xml:lang="en">represents the country name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Country</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Country</IRI>
         <Literal xml:lang="en">Country</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Court_Decision</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Court_Decision</IRI>
         <Literal xml:lang="en">Court Decision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Court_Judgements</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Court_Judgements</IRI>
         <Literal xml:lang="en">document is a court judgement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Court_Judgements</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Court_Judgements</IRI>
         <Literal xml:lang="en">Court Judgements</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Courts</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts</IRI>
         <Literal xml:lang="en">Courts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Courts_for_Civil</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Civil</IRI>
         <Literal xml:lang="en">courts for civil cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Courts_for_Civil</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Civil</IRI>
         <Literal xml:lang="en">Civil Courts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Courts_for_Criminal</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Criminal</IRI>
         <Literal xml:lang="en">Criminal Courts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Courts_for_Criminal</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_for_Criminal</IRI>
         <Literal xml:lang="en">courts for crimnial cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Courts_of_Smaller_Causes</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_of_Smaller_Causes</IRI>
         <Literal xml:lang="en">lowest court after City Civil Courts at metropolitan level for civil cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Courts_of_Smaller_Causes</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Courts_of_Smaller_Causes</IRI>
         <Literal xml:lang="en">Courts of Smaller Causes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Criminal</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Criminal</IRI>
         <Literal xml:lang="en">case is a criminal case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Criminal</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Criminal</IRI>
         <Literal xml:lang="en">Criminal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#District</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#District</IRI>
         <Literal xml:lang="en">represents district name/location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#District</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#District</IRI>
         <Literal xml:lang="en">District</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#District_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#District_Court</IRI>
         <Literal xml:lang="en">lower court at district level after High Courts for civil cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#District_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#District_Court</IRI>
         <Literal xml:lang="en">District Court</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#District_Courts</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#District_Courts</IRI>
         <Literal xml:lang="en">District Courts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Division_Bench</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Division_Bench</IRI>
         <Literal xml:lang="en">a term in judicial system in India in which a case is heard and judged by at least 2 judges</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Division_Bench</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Division_Bench</IRI>
         <Literal xml:lang="en">Division Bench</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Documents</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Documents</IRI>
         <Literal xml:lang="en">various documents used in legal domain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Documents</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Documents</IRI>
         <Literal xml:lang="en">Documents</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Evidence</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Evidence</IRI>
         <Literal xml:lang="en">evidences presented in front of the court in the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Evidence</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Evidence</IRI>
         <Literal xml:lang="en">Evidence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#FIR</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#FIR</IRI>
         <Literal xml:lang="en">document is a FIR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#FIR</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#FIR</IRI>
         <Literal xml:lang="en">FIR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Government</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Government</IRI>
         <Literal xml:lang="en">participants involved (either on both sides or any one) is the government in the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Government</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Government</IRI>
         <Literal xml:lang="en">Government</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#GovernmentName</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#GovernmentName</IRI>
         <Literal xml:lang="en">Name of the Government</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#GovernmentName</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#GovernmentName</IRI>
         <Literal xml:lang="en">governmentName</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Group</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Group</IRI>
         <Literal xml:lang="en">participants of the case are the group of people on one side against another group of people or individual or state</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Group</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Group</IRI>
         <Literal xml:lang="en">Group</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#High_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#High_Court</IRI>
         <Literal xml:lang="en">High Court</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Individual</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Individual</IRI>
         <Literal xml:lang="en">participants of the case are the individual persons</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Individual</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Individual</IRI>
         <Literal xml:lang="en">Individual</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Investigator</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Investigator</IRI>
         <Literal xml:lang="en">represents investigator who files the FIR or investigates a case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Investigator</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Investigator</IRI>
         <Literal xml:lang="en">Investigator</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Judge</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judge</IRI>
         <Literal xml:lang="en">represents the judge of the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Judge</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judge</IRI>
         <Literal xml:lang="en">Judge</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Judgement</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judgement</IRI>
         <Literal xml:lang="en">Judgement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Jurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Jurisdiction</IRI>
         <Literal xml:lang="en">the extent to which a court of law can exercise its authority over any cases filed across a region</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Jurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Jurisdiction</IRI>
         <Literal xml:lang="en">Jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Larger_Bench</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Larger_Bench</IRI>
         <Literal xml:lang="en">a term in judicial system in India in which a case is heard and judged by three or five judges</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Larger_Bench</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Larger_Bench</IRI>
         <Literal xml:lang="en">Larger Bench</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Legal_Participants</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Legal_Participants</IRI>
         <Literal xml:lang="en">legal participants involved in a case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Legal_Participants</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Legal_Participants</IRI>
         <Literal xml:lang="en">Legal Participants</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Location</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Location</IRI>
         <Literal xml:lang="en">represents the location of the courts, etc and also used for evidence locations</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Location</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Location</IRI>
         <Literal xml:lang="en">Location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Metropolitan_Magistrate_Courts</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Metropolitan_Magistrate_Courts</IRI>
         <Literal xml:lang="en">lowest court after Chief Metropolitan Court at metropolitan level for criminal cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Metropolitan_Magistrate_Courts</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Metropolitan_Magistrate_Courts</IRI>
         <Literal xml:lang="en">Metropolitan Magistrate Courts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Metropolitian_Courts</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Metropolitian_Courts</IRI>
         <Literal xml:lang="en">Metropolitan Court</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Munsif_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Munsif_Court</IRI>
         <Literal xml:lang="en">lowest court in heirarchy for civil ases at district level after Principal Junior Civil Court</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Munsif_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Munsif_Court</IRI>
         <Literal xml:lang="en">Munsif Court</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#NonLegal_Participants</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#NonLegal_Participants</IRI>
         <Literal xml:lang="en">participants who does not belong to the legal domain or partities involved in the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#NonLegal_Participants</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#NonLegal_Participants</IRI>
         <Literal xml:lang="en">Non-Legal Participants</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Order</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Order</IRI>
         <Literal xml:lang="en">Order</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Organization</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Organization</IRI>
         <Literal xml:lang="en">organization(s) involved as the participant in the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Organization</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Organization</IRI>
         <Literal xml:lang="en">Organization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Original_Jurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Original_Jurisdiction</IRI>
         <Literal xml:lang="en">jurisdiction type is a original jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Original_Jurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Original_Jurisdiction</IRI>
         <Literal xml:lang="en">Original Jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Others</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Others</IRI>
         <Literal xml:lang="en">Other documents</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Others</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Others</IRI>
         <Literal xml:lang="en">Others</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Participants</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Participants</IRI>
         <Literal xml:lang="en">represents the types of participants involved in the case as oppositions in the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Participants</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Participants</IRI>
         <Literal xml:lang="en">Participants</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Petition</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Petition</IRI>
         <Literal xml:lang="en">document is a petition document</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Petition</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Petition</IRI>
         <Literal xml:lang="en">Petition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Petitioner</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Petitioner</IRI>
         <Literal xml:lang="en">represnts the petitioner of the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Petitioner</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Petitioner</IRI>
         <Literal xml:lang="en">Petitioner</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Place</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Place</IRI>
         <Literal xml:lang="en">location name or place name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Place</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Place</IRI>
         <Literal xml:lang="en">Place</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Plaintiff</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Plaintiff</IRI>
         <Literal xml:lang="en">represnts the plaintiff of the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Plaintiff</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Plaintiff</IRI>
         <Literal xml:lang="en">Plaintiff</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Precedent_Case</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Precedent_Case</IRI>
         <Literal xml:lang="en">refers to the precedent cases of the cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Precedent_Case</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Precedent_Case</IRI>
         <Literal xml:lang="en">Precedent Case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Principal_Junior_Civil_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Principal_Junior_Civil_Court</IRI>
         <Literal xml:lang="en">third lower court in hierarchy at district level for civil cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Principal_Junior_Civil_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Principal_Junior_Civil_Court</IRI>
         <Literal xml:lang="en">Principal Junior Civil Court</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Respondent</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Respondent</IRI>
         <Literal xml:lang="en">represents the respondent of the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Respondent</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Respondent</IRI>
         <Literal xml:lang="en">Respondent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Review_Jurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Review_Jurisdiction</IRI>
         <Literal xml:lang="en">jurisdiction type is a review jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Review_Jurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Review_Jurisdiction</IRI>
         <Literal xml:lang="en">Review Jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Session_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Session_Court</IRI>
         <Literal xml:lang="en">lower court at both distrcit and metropolitan level after High Courts specific for criminal cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Session_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Session_Court</IRI>
         <Literal xml:lang="en">Sessions Court</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Single_Judge</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Single_Judge</IRI>
         <Literal xml:lang="en">a case heard and judged by a single judge</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Single_Judge</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Single_Judge</IRI>
         <Literal xml:lang="en">Single Judge</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Solicitor</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Solicitor</IRI>
         <Literal xml:lang="en">represents solicitor, learned counsel or laywer of the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Solicitor</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Solicitor</IRI>
         <Literal xml:lang="en">Solicitor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Special_Bench</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Special_Bench</IRI>
         <Literal xml:lang="en">means the Bench constituted by or under the orders of the Chief Justice to hear a case or particular class of cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Special_Bench</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Special_Bench</IRI>
         <Literal xml:lang="en">Special Bench</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#State</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#State</IRI>
         <Literal xml:lang="en">represents state name/location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#State</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#State</IRI>
         <Literal xml:lang="en">State</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Sub_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Sub_Court</IRI>
         <Literal xml:lang="en">second lower court in hierarchy at District level for civil cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Sub_Court</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Sub_Court</IRI>
         <Literal xml:lang="en">Sub Court</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Taluka</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Taluka</IRI>
         <Literal xml:lang="en">represents taluka name/location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Taluka</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Taluka</IRI>
         <Literal xml:lang="en">Taluka</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Tribunal_Bench</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Tribunal_Bench</IRI>
         <Literal xml:lang="en">Bench deals with tribunals cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Tribunal_Bench</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Tribunal_Bench</IRI>
         <Literal xml:lang="en">Tribunal Bench</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Tribunals</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Tribunals</IRI>
         <Literal xml:lang="en">institutions established for discharging judicial or quasi-judicial duties under the Government of India</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Tribunals</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Tribunals</IRI>
         <Literal xml:lang="en">Tribunals</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Witness</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Witness</IRI>
         <Literal xml:lang="en">witness involved/presented in the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Witness</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Witness</IRI>
         <Literal xml:lang="en">Witness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#caseBelongsToType</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#caseBelongsToType</IRI>
         <Literal xml:lang="en">caseBelongsToType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#caseBelongsToType</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#caseBelongsToType</IRI>
         <Literal xml:lang="en">property justifies the relationship of the case with the particular domain to which it belongs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#documentType</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#documentType</IRI>
         <Literal xml:lang="en">documentType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#documentType</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#documentType</IRI>
         <Literal xml:lang="en">property defines the type of document involved in the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasActs</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasActs</IRI>
         <Literal xml:lang="en">acts involved in the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasActs</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasActs</IRI>
         <Literal xml:lang="en">hasActs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasAdvisoryJurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAdvisoryJurisdiction</IRI>
         <Literal xml:lang="en">property justifies that the jurisdiction of the court is the advisory jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasAdvisoryJurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAdvisoryJurisdiction</IRI>
         <Literal xml:lang="en">hasAdvisoryJurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasAppellantJurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAppellantJurisdiction</IRI>
         <Literal xml:lang="en">property justifies that the jurisdiction of the court is the appellant jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasAppellantJurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAppellantJurisdiction</IRI>
         <Literal xml:lang="en">hasAppellantJurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasAuthor</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAuthor</IRI>
         <Literal xml:lang="en">case has a author who is one of the judge of the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasAuthor</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasAuthor</IRI>
         <Literal xml:lang="en">hasAuthor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasBench</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasBench</IRI>
         <Literal xml:lang="en">case has a bench of judges</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasBench</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasBench</IRI>
         <Literal xml:lang="en">hasBench</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasCaseName</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCaseName</IRI>
         <Literal xml:lang="en">name of the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasCaseName</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCaseName</IRI>
         <Literal xml:lang="en">hasCaseName</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasCaseNumber</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCaseNumber</IRI>
         <Literal xml:lang="en">case number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasCaseNumber</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCaseNumber</IRI>
         <Literal xml:lang="en">hasCaseNumber</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasCourtDecision</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourtDecision</IRI>
         <Literal xml:lang="en">property justifies the type of courts decision given by the judge in the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasCourtDecision</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourtDecision</IRI>
         <Literal xml:lang="en">hasCourtDecision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasCourtDecisionDate</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourtDecisionDate</IRI>
         <Literal xml:lang="en">date on which the court decision is given</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasCourtDecisionDate</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourtDecisionDate</IRI>
         <Literal xml:lang="en">hasCourtDecisionDate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasCourts</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourts</IRI>
         <Literal xml:lang="en">property defines the different courts involved in the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasCourts</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasCourts</IRI>
         <Literal xml:lang="en">hasCourts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasEvidenceLocation</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasEvidenceLocation</IRI>
         <Literal xml:lang="en">property represents the location of the evidence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasEvidenceLocation</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasEvidenceLocation</IRI>
         <Literal xml:lang="en">hasEvidenceLocation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasEvidences</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasEvidences</IRI>
         <Literal xml:lang="en">proprty represnts the evidences of the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasEvidences</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasEvidences</IRI>
         <Literal xml:lang="en">hasEvidences</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasIndividual</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasIndividual</IRI>
         <Literal xml:lang="en">represents that the group party of the case includes the individuals</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasIndividual</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasIndividual</IRI>
         <Literal xml:lang="en">hasIndividuals</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasJudgement</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasJudgement</IRI>
         <Literal xml:lang="en">judgement given on the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasJudgement</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasJudgement</IRI>
         <Literal xml:lang="en">hasJudgement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasLegalParticipants</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasLegalParticipants</IRI>
         <Literal xml:lang="en">property signifies the legal participants of the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasLegalParticipants</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasLegalParticipants</IRI>
         <Literal xml:lang="en">hasLegalParticipants</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasLocation</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasLocation</IRI>
         <Literal xml:lang="en">property signifies the location of the court involved in the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasLocation</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasLocation</IRI>
         <Literal xml:lang="en">hasLocation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasNonLegalParticipants</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasNonLegalParticipants</IRI>
         <Literal xml:lang="en">property signifies the non-legal participants of the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasNonLegalParticipants</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasNonLegalParticipants</IRI>
         <Literal xml:lang="en">hasNonLegalParticipants</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasOrder</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOrder</IRI>
         <Literal xml:lang="en">order given in the case as the court decision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasOrder</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOrder</IRI>
         <Literal xml:lang="en">hasOrder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasOriginalJurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOriginalJurisdiction</IRI>
         <Literal xml:lang="en">property justifies that the jurisdiction of the court is the original jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasOriginalJurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasOriginalJurisdiction</IRI>
         <Literal xml:lang="en">hasOriginalJurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasParticipantType</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasParticipantType</IRI>
         <Literal xml:lang="en">property signifies the type of participants or parties of the case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasParticipantType</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasParticipantType</IRI>
         <Literal xml:lang="en">hasParticipantType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasPrecedentCase</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasPrecedentCase</IRI>
         <Literal xml:lang="en">case has a relationship with the precedent cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasPrecedentCase</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasPrecedentCase</IRI>
         <Literal xml:lang="en">hasPrecedentCase</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasReviewJurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasReviewJurisdiction</IRI>
         <Literal xml:lang="en">property justifies that the jurisdiction of the court is the review jurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hasReviewJurisdiction</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#hasReviewJurisdiction</IRI>
         <Literal xml:lang="en">hasReviewJurisdiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#individualName</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#individualName</IRI>
         <Literal xml:lang="en">name of the individual or the party</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#individualName</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#individualName</IRI>
         <Literal xml:lang="en">individualName</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#isA</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#isA</IRI>
         <Literal xml:lang="en">precedent case isA case</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#isA</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#isA</IRI>
         <Literal xml:lang="en">isA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#locatedAt</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#locatedAt</IRI>
         <Literal xml:lang="en">location of the courts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#locatedAt</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#locatedAt</IRI>
         <Literal xml:lang="en">locatedAt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#organizationName</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#organizationName</IRI>
         <Literal xml:lang="en">name of the organization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#organizationName</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#organizationName</IRI>
         <Literal xml:lang="en">organizationName</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Judicial_Magistrate_Court(First_Class)</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judicial_Magistrate_Court(First_Class)</IRI>
         <Literal xml:lang="en">second lower court at distrcit level after districit level Session Court for criminal cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Judicial_Magistrate_Court(First_Class)</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judicial_Magistrate_Court(First_Class)</IRI>
         <Literal xml:lang="en">Judicial Magistrate Court (First Class)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Judicial_Magistrate_Court(Second_Class)</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judicial_Magistrate_Court(Second_Class)</IRI>
         <Literal xml:lang="en">lowest court after Judicial Magistrate Court (First Class) at distrcit level for criminal cases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Judicial_Magistrate_Court(Second_Class)</IRI>
+        <IRI>http://www.semanticweb.org/pooja/ontologies/2022/0/IndLegalCoreOnto#Judicial_Magistrate_Court(Second_Class)</IRI>
         <Literal xml:lang="en">Judicial Magistrate Court (Second Class)</Literal>
     </AnnotationAssertion>
 </Ontology>
