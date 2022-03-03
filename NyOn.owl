@@ -1,1292 +1,932 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema"
-     xml:base="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#caseBelongsToType -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#caseBelongsToType">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case_Type"/>
-        <rdfs:label xml:lang="en">caseBelongsToType</rdfs:label>
-        <rdfs:label xml:lang="en">property justifies the relationship of the case with the particular domain to which it belongs</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#documentType -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#documentType">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Court_Judgements"/>
-        <rdfs:label xml:lang="en">documentType</rdfs:label>
-        <rdfs:label xml:lang="en">property defines the type of document involved in the case</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasActs -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasActs">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Acts"/>
-        <rdfs:comment xml:lang="en">acts involved in the case</rdfs:comment>
-        <rdfs:label xml:lang="en">hasActs</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasAdvisoryJurisdiction -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasAdvisoryJurisdiction">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Apex_Court"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Advisory_Jurisdiction"/>
-        <rdfs:comment xml:lang="en">property justifies that the jurisdiction of the court is the advisory jurisdiction</rdfs:comment>
-        <rdfs:label xml:lang="en">hasAdvisoryJurisdiction</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasAppellantJurisdiction -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasAppellantJurisdiction">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Apex_Court"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#High_Court"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Appellant_Jurisdiction"/>
-        <rdfs:comment xml:lang="en">property justifies that the jurisdiction of the court is the appellant jurisdiction</rdfs:comment>
-        <rdfs:label xml:lang="en">hasAppellantJurisdiction</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasAuthor -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasAuthor">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Author"/>
-        <rdfs:comment xml:lang="en">case has a author who is one of the judge of the case</rdfs:comment>
-        <rdfs:label xml:lang="en">hasAuthor</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasBench -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasBench">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Bench"/>
-        <rdfs:comment xml:lang="en">case has a bench of judges</rdfs:comment>
-        <rdfs:label xml:lang="en">hasBench</rdfs:label>
-    </owl:ObjectProperty>
-    
+@prefix : <http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema> .
+
+<http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#caseBelongsToType
+:caseBelongsToType rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain :Case ;
+                   rdfs:range :Case_Type ;
+                   rdfs:label "caseBelongsToType"@en ,
+                              "property justifies the relationship of the case with the particular domain to which it belongs"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#documentType
+:documentType rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Case ;
+              rdfs:range :Court_Judgements ;
+              rdfs:label "documentType"@en ,
+                         "property defines the type of document involved in the case"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasActs
+:hasActs rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :Case ;
+         rdfs:range :Acts ;
+         rdfs:comment "acts involved in the case"@en ;
+         rdfs:label "hasActs"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasAdvisoryJurisdiction
+:hasAdvisoryJurisdiction rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty ;
+                         rdfs:domain :Apex_Court ;
+                         rdfs:range :Advisory_Jurisdiction ;
+                         rdfs:comment "property justifies that the jurisdiction of the court is the advisory jurisdiction"@en ;
+                         rdfs:label "hasAdvisoryJurisdiction"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasAppellantJurisdiction
+:hasAppellantJurisdiction rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty ;
+                          rdfs:domain :Apex_Court ,
+                                      :High_Court ;
+                          rdfs:range :Appellant_Jurisdiction ;
+                          rdfs:comment "property justifies that the jurisdiction of the court is the appellant jurisdiction"@en ;
+                          rdfs:label "hasAppellantJurisdiction"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasAuthor
+:hasAuthor rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Case ;
+           rdfs:range :Author ;
+           rdfs:comment "case has a author who is one of the judge of the case"@en ;
+           rdfs:label "hasAuthor"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasBench
+:hasBench rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Case ;
+          rdfs:range :Bench ;
+          rdfs:comment "case has a bench of judges"@en ;
+          rdfs:label "hasBench"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCourtDecision
+:hasCourtDecision rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Case ;
+                  rdfs:range :Court_Decision ;
+                  rdfs:comment "property justifies the type of courts decision given by the judge in the case"@en ;
+                  rdfs:label "hasCourtDecision"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCourts
+:hasCourts rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Case ;
+           rdfs:range :Courts ;
+           rdfs:comment "property defines the different courts involved in the case"@en ;
+           rdfs:label "hasCourts"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasEvidenceLocation
+:hasEvidenceLocation rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Evidence ;
+                     rdfs:range :Place ;
+                     rdfs:comment "property represents the location of the evidence"@en ;
+                     rdfs:label "hasEvidenceLocation"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasEvidences
+:hasEvidences rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Case ;
+              rdfs:range :Evidence ;
+              rdfs:comment "proprty represnts the evidences of the case"@en ;
+              rdfs:label "hasEvidences"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasIndividual
+:hasIndividual rdf:type owl:ObjectProperty ;
+               rdfs:domain :Group ;
+               rdfs:range :Individual ;
+               rdfs:comment "represents that the group party of the case includes the individuals"@en ;
+               rdfs:label "hasIndividuals"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasLegalParticipants
+:hasLegalParticipants rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      rdfs:domain :Case ;
+                      rdfs:range :Legal_Participants ;
+                      rdfs:comment "property signifies the legal participants of the case"@en ;
+                      rdfs:label "hasLegalParticipants"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasLocation
+:hasLocation rdf:type owl:ObjectProperty ;
+             rdfs:domain :Courts ;
+             rdfs:range :Location ;
+             rdfs:comment "property signifies the location of the court involved in the case"@en ;
+             rdfs:label "hasLocation"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasNonLegalParticipants
+:hasNonLegalParticipants rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty ;
+                         rdfs:domain :Case ;
+                         rdfs:range :NonLegal_Participants ;
+                         rdfs:comment "property signifies the non-legal participants of the case"@en ;
+                         rdfs:label "hasNonLegalParticipants"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasOriginalJurisdiction
+:hasOriginalJurisdiction rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty ;
+                         rdfs:domain :Apex_Court ,
+                                     :High_Court ;
+                         rdfs:range :Original_Jurisdiction ;
+                         rdfs:comment "property justifies that the jurisdiction of the court is the original jurisdiction"@en ;
+                         rdfs:label "hasOriginalJurisdiction"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasParticipantType
+:hasParticipantType rdf:type owl:ObjectProperty ;
+                    rdfs:domain :NonLegal_Participants ;
+                    rdfs:range :Participants ;
+                    rdfs:comment "property signifies the type of participants or parties of the case"@en ;
+                    rdfs:label "hasParticipantType"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasPrecedentCase
+:hasPrecedentCase rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Case ;
+                  rdfs:range :Precedent_Case ;
+                  rdfs:comment "case has a relationship with the precedent cases"@en ;
+                  rdfs:label "hasPrecedentCase"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasReviewJurisdiction
+:hasReviewJurisdiction rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty ;
+                       rdfs:domain :Apex_Court ;
+                       rdfs:range :Review_Jurisdiction ;
+                       rdfs:comment "property justifies that the jurisdiction of the court is the review jurisdiction"@en ;
+                       rdfs:label "hasReviewJurisdiction"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasWritJurisdiction
+:hasWritJurisdiction rdf:type owl:ObjectProperty ;
+                     rdfs:comment "property justifies that the jurisdiction of the court is the writ jurisdiction"@en ;
+                     rdfs:label "hasWritJurisdiction"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#isA
+:isA rdf:type owl:ObjectProperty ;
+     rdfs:domain :Precedent_Case ;
+     rdfs:range :Case ;
+     rdfs:comment "precedent case isA case"@en ;
+     rdfs:label "isA"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#GovernmentName
+:GovernmentName rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain :Government ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Name of the Government"@en ;
+                rdfs:label "governmentName"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCaseName
+:hasCaseName rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Case ;
+             rdfs:range xsd:string ;
+             rdfs:comment "name of the case"@en ;
+             rdfs:label "hasCaseName"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCaseNumber
+:hasCaseNumber rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Case ;
+               rdfs:comment "case number"@en ;
+               rdfs:label "hasCaseNumber"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCourtDecisionDate
+:hasCourtDecisionDate rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain :Court_Decision ;
+                      rdfs:range xsd:dateTime ;
+                      rdfs:comment "date on which the court decision is given"@en ;
+                      rdfs:label "hasCourtDecisionDate"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasJudgement
+:hasJudgement rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain :Judgement ;
+              rdfs:range xsd:string ;
+              rdfs:comment "judgement given on the case"@en ;
+              rdfs:label "hasJudgement"@en .
+
+
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasOrder
+:hasOrder rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :Order ;
+          rdfs:range xsd:string ;
+          rdfs:comment "order given in the case as the court decision"@en ;
+          rdfs:label "hasOrder"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCourtDecision -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCourtDecision">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Court_Decision"/>
-        <rdfs:comment xml:lang="en">property justifies the type of courts decision given by the judge in the case</rdfs:comment>
-        <rdfs:label xml:lang="en">hasCourtDecision</rdfs:label>
-    </owl:ObjectProperty>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#individualName
+:individualName rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain :Individual ;
+                rdfs:range xsd:string ;
+                rdfs:comment "name of the individual or the party"@en ;
+                rdfs:label "individualName"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCourts -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCourts">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts"/>
-        <rdfs:comment xml:lang="en">property defines the different courts involved in the case</rdfs:comment>
-        <rdfs:label xml:lang="en">hasCourts</rdfs:label>
-    </owl:ObjectProperty>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#locatedAt
+:locatedAt rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Courts ;
+           rdfs:range xsd:string ;
+           rdfs:comment "location of the courts"@en ;
+           rdfs:label "locatedAt"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasEvidenceLocation -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasEvidenceLocation">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Evidence"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Place"/>
-        <rdfs:comment xml:lang="en">property represents the location of the evidence</rdfs:comment>
-        <rdfs:label xml:lang="en">hasEvidenceLocation</rdfs:label>
-    </owl:ObjectProperty>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#organizationName
+:organizationName rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Organization ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "name of the organization"@en ;
+                  rdfs:label "organizationName"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasEvidences -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#stateName
+:stateName rdf:type owl:DatatypeProperty ;
+           rdfs:domain :State ;
+           rdfs:range xsd:string ;
+           rdfs:comment "name of the State"@en ;
+           rdfs:label "stateName"@en .
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasEvidences">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Evidence"/>
-        <rdfs:comment xml:lang="en">proprty represnts the evidences of the case</rdfs:comment>
-        <rdfs:label xml:lang="en">hasEvidences</rdfs:label>
-    </owl:ObjectProperty>
-    
 
+#################################################################
+#    Classes
+#################################################################
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasIndividual -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Accussed
+:Accussed rdf:type owl:Class ;
+          rdfs:subClassOf :NonLegal_Participants ;
+          rdfs:comment "represents the accused of the case"@en ;
+          rdfs:label "Accused"@en .
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasIndividual">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Group"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Individual"/>
-        <rdfs:comment xml:lang="en">represents that the group party of the case includes the individuals</rdfs:comment>
-        <rdfs:label xml:lang="en">hasIndividuals</rdfs:label>
-    </owl:ObjectProperty>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Acts
+:Acts rdf:type owl:Class ;
+      rdfs:comment "Acts or Rules common for Civil and Crimnial Law"@en ;
+      rdfs:label "Acts"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasLegalParticipants -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasLegalParticipants">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Legal_Participants"/>
-        <rdfs:comment xml:lang="en">property signifies the legal participants of the case</rdfs:comment>
-        <rdfs:label xml:lang="en">hasLegalParticipants</rdfs:label>
-    </owl:ObjectProperty>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Advisory_Jurisdiction
+:Advisory_Jurisdiction rdf:type owl:Class ;
+                       rdfs:subClassOf :Jurisdiction ;
+                       rdfs:comment "jurisdiction type is a advisory jurisdiction"@en ;
+                       rdfs:label "Advisory Jurisdiction"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasLocation -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Apex_Court
+:Apex_Court rdf:type owl:Class ;
+            rdfs:subClassOf :Courts ;
+            rdfs:label "Apex Court"@en .
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasLocation">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Location"/>
-        <rdfs:comment xml:lang="en">property signifies the location of the court involved in the case</rdfs:comment>
-        <rdfs:label xml:lang="en">hasLocation</rdfs:label>
-    </owl:ObjectProperty>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Appeal
+:Appeal rdf:type owl:Class ;
+        rdfs:subClassOf :Documents ;
+        rdfs:comment "document is an appeal document"@en ;
+        rdfs:label "Appeal"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasNonLegalParticipants -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasNonLegalParticipants">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#NonLegal_Participants"/>
-        <rdfs:comment xml:lang="en">property signifies the non-legal participants of the case</rdfs:comment>
-        <rdfs:label xml:lang="en">hasNonLegalParticipants</rdfs:label>
-    </owl:ObjectProperty>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Appellant
+:Appellant rdf:type owl:Class ;
+           rdfs:subClassOf :NonLegal_Participants ;
+           rdfs:comment "represents the appellant of the case"@en ;
+           rdfs:label "Appellant"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasOriginalJurisdiction -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Appellant_Jurisdiction
+:Appellant_Jurisdiction rdf:type owl:Class ;
+                        rdfs:subClassOf :Jurisdiction ;
+                        rdfs:comment "jurisdiction type is a appellant jurisdiction"@en ;
+                        rdfs:label "Appellant Jurisdiction"@en .
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasOriginalJurisdiction">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Apex_Court"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#High_Court"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Original_Jurisdiction"/>
-        <rdfs:comment xml:lang="en">property justifies that the jurisdiction of the court is the original jurisdiction</rdfs:comment>
-        <rdfs:label xml:lang="en">hasOriginalJurisdiction</rdfs:label>
-    </owl:ObjectProperty>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Author
+:Author rdf:type owl:Class ;
+        rdfs:comment "Author (Judge) who is responsible for a creation of case document"@en ;
+        rdfs:label "Author"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasParticipantType -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasParticipantType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#NonLegal_Participants"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Participants"/>
-        <rdfs:comment xml:lang="en">property signifies the type of participants or parties of the case</rdfs:comment>
-        <rdfs:label xml:lang="en">hasParticipantType</rdfs:label>
-    </owl:ObjectProperty>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Bench
+:Bench rdf:type owl:Class ;
+       rdfs:comment "Defines the bench of the case."@en ;
+       rdfs:label "Bench"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasPrecedentCase -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case
+:Case rdf:type owl:Class ;
+      rdfs:comment "a legal court case or court decision or case document"@en ;
+      rdfs:label "Case"@en .
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasPrecedentCase">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Precedent_Case"/>
-        <rdfs:comment xml:lang="en">case has a relationship with the precedent cases</rdfs:comment>
-        <rdfs:label xml:lang="en">hasPrecedentCase</rdfs:label>
-    </owl:ObjectProperty>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case_Type
+:Case_Type rdf:type owl:Class ;
+           rdfs:comment "defines the category of the case to which it belongs (Criminal or Civil according to Indian Judicial System)"@en ;
+           rdfs:label "Case Type"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasReviewJurisdiction -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasReviewJurisdiction">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Apex_Court"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Review_Jurisdiction"/>
-        <rdfs:comment xml:lang="en">property justifies that the jurisdiction of the court is the review jurisdiction</rdfs:comment>
-        <rdfs:label xml:lang="en">hasReviewJurisdiction</rdfs:label>
-    </owl:ObjectProperty>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Chief_Meterpolitan_Court
+:Chief_Meterpolitan_Court rdf:type owl:Class ;
+                          rdfs:subClassOf :Courts_for_Criminal ;
+                          rdfs:comment "lower court at metropolitan level after Sessions Court for criminal cases"@en ;
+                          rdfs:label "Chief Meterpolitan Court"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasWritJurisdiction -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#City_Civil_Courts
+:City_Civil_Courts rdf:type owl:Class ;
+                   rdfs:subClassOf :Courts_for_Civil ;
+                   rdfs:comment "lower court at metropolitan level after High Courts for civil cases"@en ;
+                   rdfs:label "City Civil Courts"@en .
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasWritJurisdiction">
-        <rdfs:comment xml:lang="en">property justifies that the jurisdiction of the court is the writ jurisdiction</rdfs:comment>
-        <rdfs:label xml:lang="en">hasWritJurisdiction</rdfs:label>
-    </owl:ObjectProperty>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Civil
+:Civil rdf:type owl:Class ;
+       rdfs:subClassOf :Case_Type ;
+       owl:disjointWith :Criminal ;
+       rdfs:comment "case is a civil case"@en ;
+       rdfs:label "Civil"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#isA -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#isA">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Precedent_Case"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:comment xml:lang="en">precedent case isA case</rdfs:comment>
-        <rdfs:label xml:lang="en">isA</rdfs:label>
-    </owl:ObjectProperty>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Country
+:Country rdf:type owl:Class ;
+         rdfs:subClassOf :Location ;
+         rdfs:comment "represents the country name"@en ;
+         rdfs:label "Country"@en .
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Court_Decision
+:Court_Decision rdf:type owl:Class ;
+                rdfs:label "Court Decision"@en .
 
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Court_Judgements
+:Court_Judgements rdf:type owl:Class ;
+                  rdfs:subClassOf :Documents ;
+                  rdfs:comment "document is a court judgement"@en ;
+                  rdfs:label "Court Judgements"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#GovernmentName -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#GovernmentName">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Government"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="en">Name of the Government</rdfs:comment>
-        <rdfs:label xml:lang="en">governmentName</rdfs:label>
-    </owl:DatatypeProperty>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts
+:Courts rdf:type owl:Class ;
+        rdfs:label "Courts"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCaseName -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Civil
+:Courts_for_Civil rdf:type owl:Class ;
+                  rdfs:subClassOf :Case_Type ;
+                  rdfs:comment "courts for civil cases"@en ;
+                  rdfs:label "Civil Courts"@en .
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCaseName">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="en">name of the case</rdfs:comment>
-        <rdfs:label xml:lang="en">hasCaseName</rdfs:label>
-    </owl:DatatypeProperty>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Criminal
+:Courts_for_Criminal rdf:type owl:Class ;
+                     rdfs:subClassOf :Case_Type ;
+                     rdfs:label "Criminal Courts"@en ,
+                                "courts for crimnial cases"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCaseNumber -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCaseNumber">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-        <rdfs:comment xml:lang="en">case number</rdfs:comment>
-        <rdfs:label xml:lang="en">hasCaseNumber</rdfs:label>
-    </owl:DatatypeProperty>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_of_Smaller_Causes
+:Courts_of_Smaller_Causes rdf:type owl:Class ;
+                          rdfs:subClassOf :Courts_for_Civil ;
+                          rdfs:comment "lowest court after City Civil Courts at metropolitan level for civil cases"@en ;
+                          rdfs:label "Courts of Smaller Causes"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCourtDecisionDate -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Criminal
+:Criminal rdf:type owl:Class ;
+          rdfs:subClassOf :Case_Type ;
+          rdfs:comment "case is a criminal case"@en ;
+          rdfs:label "Criminal"@en .
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCourtDecisionDate">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Court_Decision"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-        <rdfs:comment xml:lang="en">date on which the court decision is given</rdfs:comment>
-        <rdfs:label xml:lang="en">hasCourtDecisionDate</rdfs:label>
-    </owl:DatatypeProperty>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#District
+:District rdf:type owl:Class ;
+          rdfs:subClassOf :Location ;
+          rdfs:comment "represents district name/location"@en ;
+          rdfs:label "District"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasJudgement -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasJudgement">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judgement"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="en">judgement given on the case</rdfs:comment>
-        <rdfs:label xml:lang="en">hasJudgement</rdfs:label>
-    </owl:DatatypeProperty>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#District_Court
+:District_Court rdf:type owl:Class ;
+                rdfs:subClassOf :Courts_for_Civil ;
+                rdfs:comment "lower court at district level after High Courts for civil cases"@en ;
+                rdfs:label "District Court"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasOrder -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#District_Courts
+:District_Courts rdf:type owl:Class ;
+                 rdfs:subClassOf :Courts ;
+                 rdfs:label "District Courts"@en .
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasOrder">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Order"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="en">order given in the case as the court decision</rdfs:comment>
-        <rdfs:label xml:lang="en">hasOrder</rdfs:label>
-    </owl:DatatypeProperty>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Division_Bench
+:Division_Bench rdf:type owl:Class ;
+                rdfs:subClassOf :Bench ;
+                rdfs:comment "a term in judicial system in India in which a case is heard and judged by at least 2 judges"@en ;
+                rdfs:label "Division Bench"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#individualName -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#individualName">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Individual"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="en">name of the individual or the party</rdfs:comment>
-        <rdfs:label xml:lang="en">individualName</rdfs:label>
-    </owl:DatatypeProperty>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Documents
+:Documents rdf:type owl:Class ;
+           rdfs:comment "various documents used in legal domain"@en ;
+           rdfs:label "Documents"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#locatedAt -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Evidence
+:Evidence rdf:type owl:Class ;
+          rdfs:comment "evidences presented in front of the court in the case"@en ;
+          rdfs:label "Evidence"@en .
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#locatedAt">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="en">location of the courts</rdfs:comment>
-        <rdfs:label xml:lang="en">locatedAt</rdfs:label>
-    </owl:DatatypeProperty>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#FIR
+:FIR rdf:type owl:Class ;
+     rdfs:subClassOf :Documents ;
+     rdfs:comment "document is a FIR"@en ;
+     rdfs:label "FIR"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#organizationName -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#organizationName">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Organization"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="en">name of the organization</rdfs:comment>
-        <rdfs:label xml:lang="en">organizationName</rdfs:label>
-    </owl:DatatypeProperty>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Government
+:Government rdf:type owl:Class ;
+            rdfs:subClassOf :Participants ;
+            rdfs:comment "participants involved (either on both sides or any one) is the government in the case"@en ;
+            rdfs:label "Government"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#stateName -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Group
+:Group rdf:type owl:Class ;
+       rdfs:subClassOf :Participants ;
+       rdfs:comment "participants of the case are the group of people on one side against another group of people or individual or state"@en ;
+       rdfs:label "Group"@en .
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#stateName">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#State"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="en">name of the State</rdfs:comment>
-        <rdfs:label xml:lang="en">stateName</rdfs:label>
-    </owl:DatatypeProperty>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#High_Court
+:High_Court rdf:type owl:Class ;
+            rdfs:subClassOf :Courts ;
+            rdfs:label "High Court"@en .
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
 
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Individual
+:Individual rdf:type owl:Class ;
+            rdfs:subClassOf :Participants ;
+            rdfs:comment "participants of the case are the individual persons"@en ;
+            rdfs:label "Individual"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Accussed -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Investigator
+:Investigator rdf:type owl:Class ;
+              rdfs:subClassOf :Legal_Participants ;
+              rdfs:comment "represents investigator who files the FIR or investigates a case"@en ;
+              rdfs:label "Investigator"@en .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Accussed">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#NonLegal_Participants"/>
-        <rdfs:comment xml:lang="en">represents the accused of the case</rdfs:comment>
-        <rdfs:label xml:lang="en">Accused</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judge
+:Judge rdf:type owl:Class ;
+       rdfs:subClassOf :Legal_Participants ;
+       rdfs:comment "represents the judge of the case"@en ;
+       rdfs:label "Judge"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Acts -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Acts">
-        <rdfs:comment xml:lang="en">Acts or Rules common for Civil and Crimnial Law</rdfs:comment>
-        <rdfs:label xml:lang="en">Acts</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judgement
+:Judgement rdf:type owl:Class ;
+           rdfs:subClassOf :Court_Decision ;
+           owl:disjointWith :Order ;
+           rdfs:label "Judgement"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Advisory_Jurisdiction -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Jurisdiction
+:Jurisdiction rdf:type owl:Class ;
+              rdfs:comment "the extent to which a court of law can exercise its authority over any cases filed across a region"@en ;
+              rdfs:label "Jurisdiction"@en .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Advisory_Jurisdiction">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Jurisdiction"/>
-        <rdfs:comment xml:lang="en">jurisdiction type is a advisory jurisdiction</rdfs:comment>
-        <rdfs:label xml:lang="en">Advisory Jurisdiction</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Larger_Bench
+:Larger_Bench rdf:type owl:Class ;
+              rdfs:subClassOf :Bench ;
+              rdfs:comment "a term in judicial system in India in which a case is heard and judged by three or five judges"@en ;
+              rdfs:label "Larger Bench"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Apex_Court -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Apex_Court">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts"/>
-        <rdfs:label xml:lang="en">Apex Court</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Legal_Participants
+:Legal_Participants rdf:type owl:Class ;
+                    rdfs:comment "legal participants involved in a case"@en ;
+                    rdfs:label "Legal Participants"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Appeal -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Location
+:Location rdf:type owl:Class ;
+          rdfs:comment "represents the location of the courts, etc and also used for evidence locations"@en ;
+          rdfs:label "Location"@en .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Appeal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Documents"/>
-        <rdfs:comment xml:lang="en">document is an appeal document</rdfs:comment>
-        <rdfs:label xml:lang="en">Appeal</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Metropolitan_Magistrate_Courts
+:Metropolitan_Magistrate_Courts rdf:type owl:Class ;
+                                rdfs:subClassOf :Courts_for_Criminal ;
+                                rdfs:comment "lowest court after Chief Metropolitan Court at metropolitan level for criminal cases"@en ;
+                                rdfs:label "Metropolitan Magistrate Courts"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Appellant -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Appellant">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#NonLegal_Participants"/>
-        <rdfs:comment xml:lang="en">represents the appellant of the case</rdfs:comment>
-        <rdfs:label xml:lang="en">Appellant</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Metropolitian_Courts
+:Metropolitian_Courts rdf:type owl:Class ;
+                      rdfs:subClassOf :Courts ;
+                      rdfs:label "Metropolitan Court"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Appellant_Jurisdiction -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Munsif_Court
+:Munsif_Court rdf:type owl:Class ;
+              rdfs:subClassOf :Courts_for_Civil ;
+              rdfs:comment "lowest court in heirarchy for civil ases at district level after Principal Junior Civil Court"@en ;
+              rdfs:label "Munsif Court"@en .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Appellant_Jurisdiction">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Jurisdiction"/>
-        <rdfs:comment xml:lang="en">jurisdiction type is a appellant jurisdiction</rdfs:comment>
-        <rdfs:label xml:lang="en">Appellant Jurisdiction</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#NonLegal_Participants
+:NonLegal_Participants rdf:type owl:Class ;
+                       rdfs:comment "participants who does not belong to the legal domain or partities involved in the case"@en ;
+                       rdfs:label "Non-Legal Participants"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Author -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Author">
-        <rdfs:comment xml:lang="en">Author (Judge) who is responsible for a creation of case document</rdfs:comment>
-        <rdfs:label xml:lang="en">Author</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Order
+:Order rdf:type owl:Class ;
+       rdfs:subClassOf :Court_Decision ;
+       rdfs:label "Order"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Bench -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Organization
+:Organization rdf:type owl:Class ;
+              rdfs:subClassOf :Participants ;
+              rdfs:comment "organization(s) involved as the participant in the case"@en ;
+              rdfs:label "Organization"@en .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Bench">
-        <rdfs:comment xml:lang="en">Defines the bench of the case.</rdfs:comment>
-        <rdfs:label xml:lang="en">Bench</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Original_Jurisdiction
+:Original_Jurisdiction rdf:type owl:Class ;
+                       rdfs:subClassOf :Jurisdiction ;
+                       rdfs:comment "jurisdiction type is a original jurisdiction"@en ;
+                       rdfs:label "Original Jurisdiction"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case">
-        <rdfs:comment xml:lang="en">a legal court case or court decision or case document</rdfs:comment>
-        <rdfs:label xml:lang="en">Case</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Others
+:Others rdf:type owl:Class ;
+        rdfs:subClassOf :Documents ;
+        rdfs:comment "Other documents"@en ;
+        rdfs:label "Others"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case_Type -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Participants
+:Participants rdf:type owl:Class ;
+              rdfs:comment "represents the types of participants involved in the case as oppositions in the case"@en ;
+              rdfs:label "Participants"@en .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case_Type">
-        <rdfs:comment xml:lang="en">defines the category of the case to which it belongs (Criminal or Civil according to Indian Judicial System)</rdfs:comment>
-        <rdfs:label xml:lang="en">Case Type</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Petition
+:Petition rdf:type owl:Class ;
+          rdfs:subClassOf :Documents ;
+          rdfs:comment "document is a petition document"@en ;
+          rdfs:label "Petition"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Chief_Meterpolitan_Court -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Chief_Meterpolitan_Court">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Criminal"/>
-        <rdfs:comment xml:lang="en">lower court at metropolitan level after Sessions Court for criminal cases</rdfs:comment>
-        <rdfs:label xml:lang="en">Chief Meterpolitan Court</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Petitioner
+:Petitioner rdf:type owl:Class ;
+            rdfs:subClassOf :NonLegal_Participants ;
+            rdfs:comment "represnts the petitioner of the case"@en ;
+            rdfs:label "Petitioner"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#City_Civil_Courts -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Place
+:Place rdf:type owl:Class ;
+       rdfs:subClassOf :Location ;
+       rdfs:comment "location name or place name"@en ;
+       rdfs:label "Place"@en .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#City_Civil_Courts">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Civil"/>
-        <rdfs:comment xml:lang="en">lower court at metropolitan level after High Courts for civil cases</rdfs:comment>
-        <rdfs:label xml:lang="en">City Civil Courts</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Plaintiff
+:Plaintiff rdf:type owl:Class ;
+           rdfs:subClassOf :NonLegal_Participants ;
+           rdfs:comment "represnts the plaintiff of the case"@en ;
+           rdfs:label "Plaintiff"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Civil -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Civil">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case_Type"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Criminal"/>
-        <rdfs:comment xml:lang="en">case is a civil case</rdfs:comment>
-        <rdfs:label xml:lang="en">Civil</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Precedent_Case
+:Precedent_Case rdf:type owl:Class ;
+                rdfs:comment "refers to the precedent cases of the cases"@en ;
+                rdfs:label "Precedent Case"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Country -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Principal_Junior_Civil_Court
+:Principal_Junior_Civil_Court rdf:type owl:Class ;
+                              rdfs:subClassOf :Courts_for_Civil ;
+                              rdfs:comment "third lower court in hierarchy at district level for civil cases"@en ;
+                              rdfs:label "Principal Junior Civil Court"@en .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Country">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Location"/>
-        <rdfs:comment xml:lang="en">represents the country name</rdfs:comment>
-        <rdfs:label xml:lang="en">Country</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Respondent
+:Respondent rdf:type owl:Class ;
+            rdfs:subClassOf :NonLegal_Participants ;
+            rdfs:comment "represents the respondent of the case"@en ;
+            rdfs:label "Respondent"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Court_Decision -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Court_Decision">
-        <rdfs:label xml:lang="en">Court Decision</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Review_Jurisdiction
+:Review_Jurisdiction rdf:type owl:Class ;
+                     rdfs:subClassOf :Jurisdiction ;
+                     rdfs:comment "jurisdiction type is a review jurisdiction"@en ;
+                     rdfs:label "Review Jurisdiction"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Court_Judgements -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Session_Court
+:Session_Court rdf:type owl:Class ;
+               rdfs:subClassOf :Courts_for_Criminal ;
+               rdfs:comment "lower court at both distrcit and metropolitan level after High Courts specific for criminal cases"@en ;
+               rdfs:label "Sessions Court"@en .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Court_Judgements">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Documents"/>
-        <rdfs:comment xml:lang="en">document is a court judgement</rdfs:comment>
-        <rdfs:label xml:lang="en">Court Judgements</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Single_Judge
+:Single_Judge rdf:type owl:Class ;
+              rdfs:subClassOf :Bench ;
+              rdfs:comment "a case heard and judged by a single judge"@en ;
+              rdfs:label "Single Judge"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts">
-        <rdfs:label xml:lang="en">Courts</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Solicitor
+:Solicitor rdf:type owl:Class ;
+           rdfs:subClassOf :Legal_Participants ;
+           rdfs:comment "represents solicitor, learned counsel or laywer of the case"@en ;
+           rdfs:label "Solicitor"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Civil -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Special_Bench
+:Special_Bench rdf:type owl:Class ;
+               rdfs:subClassOf :Bench ;
+               rdfs:comment "means the Bench constituted by or under the orders of the Chief Justice to hear a case or particular class of cases"@en ;
+               rdfs:label "Special Bench"@en .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Civil">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case_Type"/>
-        <rdfs:comment xml:lang="en">courts for civil cases</rdfs:comment>
-        <rdfs:label xml:lang="en">Civil Courts</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#State
+:State rdf:type owl:Class ;
+       rdfs:subClassOf :Location ,
+                       :Participants ;
+       rdfs:comment "represents state name/location"@en ;
+       rdfs:label "State"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Criminal -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Criminal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case_Type"/>
-        <rdfs:label xml:lang="en">Criminal Courts</rdfs:label>
-        <rdfs:label xml:lang="en">courts for crimnial cases</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Sub_Court
+:Sub_Court rdf:type owl:Class ;
+           rdfs:subClassOf :Courts_for_Civil ;
+           rdfs:comment "second lower court in hierarchy at District level for civil cases"@en ;
+           rdfs:label "Sub Court"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_of_Smaller_Causes -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Taluka
+:Taluka rdf:type owl:Class ;
+        rdfs:subClassOf :Location ;
+        rdfs:comment "represents taluka name/location"@en ;
+        rdfs:label "Taluka"@en .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_of_Smaller_Causes">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Civil"/>
-        <rdfs:comment xml:lang="en">lowest court after City Civil Courts at metropolitan level for civil cases</rdfs:comment>
-        <rdfs:label xml:lang="en">Courts of Smaller Causes</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Tribunal_Bench
+:Tribunal_Bench rdf:type owl:Class ;
+                rdfs:subClassOf :Bench ;
+                rdfs:comment "Bench deals with tribunals cases"@en ;
+                rdfs:label "Tribunal Bench"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Criminal -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Criminal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case_Type"/>
-        <rdfs:comment xml:lang="en">case is a criminal case</rdfs:comment>
-        <rdfs:label xml:lang="en">Criminal</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Tribunals
+:Tribunals rdf:type owl:Class ;
+           rdfs:subClassOf :Courts ;
+           rdfs:comment "institutions established for discharging judicial or quasi-judicial duties under the Government of India"@en ;
+           rdfs:label "Tribunals"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#District -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Witness
+:Witness rdf:type owl:Class ;
+         rdfs:subClassOf :NonLegal_Participants ;
+         rdfs:comment "witness involved/presented in the case"@en ;
+         rdfs:label "Witness"@en .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#District">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Location"/>
-        <rdfs:comment xml:lang="en">represents district name/location</rdfs:comment>
-        <rdfs:label xml:lang="en">District</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Writ_Jurisdiction
+:Writ_Jurisdiction rdf:type owl:Class ;
+                   rdfs:subClassOf :Jurisdiction ;
+                   rdfs:comment "jurisdiction type is a writ jurisdiction"@en ;
+                   rdfs:label "Writ Jurisdiction"@en .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#District_Court -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#District_Court">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Civil"/>
-        <rdfs:comment xml:lang="en">lower court at district level after High Courts for civil cases</rdfs:comment>
-        <rdfs:label xml:lang="en">District Court</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judicial_Magistrate_Court(First_Class)
+<http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judicial_Magistrate_Court(First_Class)> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf :Courts_for_Criminal ;
+                                                                                                               rdfs:comment "second lower court at distrcit level after districit level Session Court for criminal cases"@en ;
+                                                                                                               rdfs:label "Judicial Magistrate Court (First Class)"@en .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#District_Courts -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judicial_Magistrate_Court(Second_Class)
+<http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judicial_Magistrate_Court(Second_Class)> rdf:type owl:Class ;
+                                                                                                                rdfs:subClassOf :Courts_for_Criminal ;
+                                                                                                                rdfs:comment "lowest court after Judicial Magistrate Court (First Class) at distrcit level for criminal cases"@en ;
+                                                                                                                rdfs:label "Judicial Magistrate Court (Second Class)"@en .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#District_Courts">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts"/>
-        <rdfs:label xml:lang="en">District Courts</rdfs:label>
-    </owl:Class>
-    
 
+#################################################################
+#    Individuals
+#################################################################
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Division_Bench -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Attempt_to_Commit_Murder
+:Attempt_to_Commit_Murder rdf:type owl:NamedIndividual .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Division_Bench">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Bench"/>
-        <rdfs:comment xml:lang="en">a term in judicial system in India in which a case is heard and judged by at least 2 judges</rdfs:comment>
-        <rdfs:label xml:lang="en">Division Bench</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Attempt_to_commit_Culpable_Homicide
+:Attempt_to_commit_Culpable_Homicide rdf:type owl:NamedIndividual .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Documents -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Documents">
-        <rdfs:comment xml:lang="en">various documents used in legal domain</rdfs:comment>
-        <rdfs:label xml:lang="en">Documents</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Causing_death_by_negligence
+:Causing_death_by_negligence rdf:type owl:NamedIndividual .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Evidence -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Culpable_homicide_not_amounting_to_murder
+:Culpable_homicide_not_amounting_to_murder rdf:type owl:NamedIndividual .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Evidence">
-        <rdfs:comment xml:lang="en">evidences presented in front of the court in the case</rdfs:comment>
-        <rdfs:label xml:lang="en">Evidence</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Grievous_hurt
+:Grievous_hurt rdf:type owl:NamedIndividual .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#FIR -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#FIR">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Documents"/>
-        <rdfs:comment xml:lang="en">document is a FIR</rdfs:comment>
-        <rdfs:label xml:lang="en">FIR</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Human_trafficking
+:Human_trafficking rdf:type owl:NamedIndividual .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Government -->
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Murder
+:Murder rdf:type owl:NamedIndividual .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Government">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Participants"/>
-        <rdfs:comment xml:lang="en">participants involved (either on both sides or any one) is the government in the case</rdfs:comment>
-        <rdfs:label xml:lang="en">Government</rdfs:label>
-    </owl:Class>
-    
 
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Causing_injuries_due_to_rash_driving/rode_rage
+<http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Causing_injuries_due_to_rash_driving/rode_rage> rdf:type owl:NamedIndividual .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Group -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Group">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Participants"/>
-        <rdfs:comment xml:lang="en">participants of the case are the group of people on one side against another group of people or individual or state</rdfs:comment>
-        <rdfs:label xml:lang="en">Group</rdfs:label>
-    </owl:Class>
-    
+###  http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Kidnapping_&_Abduction
+<http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Kidnapping_&_Abduction> rdf:type owl:NamedIndividual .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#High_Court -->
+#################################################################
+#    General axioms
+#################################################################
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#High_Court">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts"/>
-        <rdfs:label xml:lang="en">High Court</rdfs:label>
-    </owl:Class>
-    
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Accussed
+                :Appellant
+                :Petitioner
+                :Plaintiff
+                :Respondent
+                :Witness
+              )
+] .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Individual -->
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Acts
+                :Author
+                :Bench
+                :Case
+                :Case_Type
+                :Court_Decision
+                :Courts
+                :Documents
+                :Evidence
+                :Jurisdiction
+                :Legal_Participants
+                :Location
+                :NonLegal_Participants
+                :Participants
+                :Precedent_Case
+              )
+] .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Individual">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Participants"/>
-        <rdfs:comment xml:lang="en">participants of the case are the individual persons</rdfs:comment>
-        <rdfs:label xml:lang="en">Individual</rdfs:label>
-    </owl:Class>
-    
 
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Advisory_Jurisdiction
+                :Appellant_Jurisdiction
+                :Original_Jurisdiction
+                :Review_Jurisdiction
+              )
+] .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Investigator -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Investigator">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Legal_Participants"/>
-        <rdfs:comment xml:lang="en">represents investigator who files the FIR or investigates a case</rdfs:comment>
-        <rdfs:label xml:lang="en">Investigator</rdfs:label>
-    </owl:Class>
-    
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Appeal
+                :Court_Judgements
+                :FIR
+                :Others
+                :Petition
+              )
+] .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judge -->
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Chief_Meterpolitan_Court
+                :Metropolitan_Magistrate_Courts
+                :Session_Court
+                <http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judicial_Magistrate_Court(First_Class)>
+                <http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judicial_Magistrate_Court(Second_Class)>
+              )
+] .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judge">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Legal_Participants"/>
-        <rdfs:comment xml:lang="en">represents the judge of the case</rdfs:comment>
-        <rdfs:label xml:lang="en">Judge</rdfs:label>
-    </owl:Class>
-    
 
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :City_Civil_Courts
+                :Courts_of_Smaller_Causes
+                :District_Court
+                :Munsif_Court
+                :Principal_Junior_Civil_Court
+                :Sub_Court
+              )
+] .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judgement -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judgement">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Court_Decision"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Order"/>
-        <rdfs:label xml:lang="en">Judgement</rdfs:label>
-    </owl:Class>
-    
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Country
+                :District
+                :Place
+                :State
+                :Taluka
+              )
+] .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Jurisdiction -->
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Government
+                :Group
+                :Individual
+                :Organization
+                :State
+              )
+] .
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Jurisdiction">
-        <rdfs:comment xml:lang="en">the extent to which a court of law can exercise its authority over any cases filed across a region</rdfs:comment>
-        <rdfs:label xml:lang="en">Jurisdiction</rdfs:label>
-    </owl:Class>
-    
 
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Investigator
+                :Judge
+                :Solicitor
+              )
+] .
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Larger_Bench -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Larger_Bench">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Bench"/>
-        <rdfs:comment xml:lang="en">a term in judicial system in India in which a case is heard and judged by three or five judges</rdfs:comment>
-        <rdfs:label xml:lang="en">Larger Bench</rdfs:label>
-    </owl:Class>
-    
+[ rdf:type owl:AllDisjointProperties ;
+  owl:members ( :caseBelongsToType
+                :documentType
+                :hasActs
+                :hasAdvisoryJurisdiction
+                :hasAppellantJurisdiction
+                :hasAuthor
+                :hasBench
+                :hasCourtDecision
+                :hasCourts
+                :hasEvidenceLocation
+                :hasEvidences
+                :hasIndividual
+                :hasLegalParticipants
+                :hasLocation
+                :hasNonLegalParticipants
+                :hasOriginalJurisdiction
+                :hasParticipantType
+                :hasPrecedentCase
+                :hasReviewJurisdiction
+                :isA
+              )
+] .
 
 
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Legal_Participants -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Legal_Participants">
-        <rdfs:comment xml:lang="en">legal participants involved in a case</rdfs:comment>
-        <rdfs:label xml:lang="en">Legal Participants</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Location -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Location">
-        <rdfs:comment xml:lang="en">represents the location of the courts, etc and also used for evidence locations</rdfs:comment>
-        <rdfs:label xml:lang="en">Location</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Metropolitan_Magistrate_Courts -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Metropolitan_Magistrate_Courts">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Criminal"/>
-        <rdfs:comment xml:lang="en">lowest court after Chief Metropolitan Court at metropolitan level for criminal cases</rdfs:comment>
-        <rdfs:label xml:lang="en">Metropolitan Magistrate Courts</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Metropolitian_Courts -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Metropolitian_Courts">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts"/>
-        <rdfs:label xml:lang="en">Metropolitan Court</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Munsif_Court -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Munsif_Court">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Civil"/>
-        <rdfs:comment xml:lang="en">lowest court in heirarchy for civil ases at district level after Principal Junior Civil Court</rdfs:comment>
-        <rdfs:label xml:lang="en">Munsif Court</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#NonLegal_Participants -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#NonLegal_Participants">
-        <rdfs:comment xml:lang="en">participants who does not belong to the legal domain or partities involved in the case</rdfs:comment>
-        <rdfs:label xml:lang="en">Non-Legal Participants</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Order -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Order">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Court_Decision"/>
-        <rdfs:label xml:lang="en">Order</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Organization -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Organization">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Participants"/>
-        <rdfs:comment xml:lang="en">organization(s) involved as the participant in the case</rdfs:comment>
-        <rdfs:label xml:lang="en">Organization</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Original_Jurisdiction -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Original_Jurisdiction">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Jurisdiction"/>
-        <rdfs:comment xml:lang="en">jurisdiction type is a original jurisdiction</rdfs:comment>
-        <rdfs:label xml:lang="en">Original Jurisdiction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Others -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Others">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Documents"/>
-        <rdfs:comment xml:lang="en">Other documents</rdfs:comment>
-        <rdfs:label xml:lang="en">Others</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Participants -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Participants">
-        <rdfs:comment xml:lang="en">represents the types of participants involved in the case as oppositions in the case</rdfs:comment>
-        <rdfs:label xml:lang="en">Participants</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Petition -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Petition">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Documents"/>
-        <rdfs:comment xml:lang="en">document is a petition document</rdfs:comment>
-        <rdfs:label xml:lang="en">Petition</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Petitioner -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Petitioner">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#NonLegal_Participants"/>
-        <rdfs:comment xml:lang="en">represnts the petitioner of the case</rdfs:comment>
-        <rdfs:label xml:lang="en">Petitioner</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Place -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Place">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Location"/>
-        <rdfs:comment xml:lang="en">location name or place name</rdfs:comment>
-        <rdfs:label xml:lang="en">Place</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Plaintiff -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Plaintiff">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#NonLegal_Participants"/>
-        <rdfs:comment xml:lang="en">represnts the plaintiff of the case</rdfs:comment>
-        <rdfs:label xml:lang="en">Plaintiff</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Precedent_Case -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Precedent_Case">
-        <rdfs:comment xml:lang="en">refers to the precedent cases of the cases</rdfs:comment>
-        <rdfs:label xml:lang="en">Precedent Case</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Principal_Junior_Civil_Court -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Principal_Junior_Civil_Court">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Civil"/>
-        <rdfs:comment xml:lang="en">third lower court in hierarchy at district level for civil cases</rdfs:comment>
-        <rdfs:label xml:lang="en">Principal Junior Civil Court</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Respondent -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Respondent">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#NonLegal_Participants"/>
-        <rdfs:comment xml:lang="en">represents the respondent of the case</rdfs:comment>
-        <rdfs:label xml:lang="en">Respondent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Review_Jurisdiction -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Review_Jurisdiction">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Jurisdiction"/>
-        <rdfs:comment xml:lang="en">jurisdiction type is a review jurisdiction</rdfs:comment>
-        <rdfs:label xml:lang="en">Review Jurisdiction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Session_Court -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Session_Court">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Criminal"/>
-        <rdfs:comment xml:lang="en">lower court at both distrcit and metropolitan level after High Courts specific for criminal cases</rdfs:comment>
-        <rdfs:label xml:lang="en">Sessions Court</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Single_Judge -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Single_Judge">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Bench"/>
-        <rdfs:comment xml:lang="en">a case heard and judged by a single judge</rdfs:comment>
-        <rdfs:label xml:lang="en">Single Judge</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Solicitor -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Solicitor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Legal_Participants"/>
-        <rdfs:comment xml:lang="en">represents solicitor, learned counsel or laywer of the case</rdfs:comment>
-        <rdfs:label xml:lang="en">Solicitor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Special_Bench -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Special_Bench">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Bench"/>
-        <rdfs:comment xml:lang="en">means the Bench constituted by or under the orders of the Chief Justice to hear a case or particular class of cases</rdfs:comment>
-        <rdfs:label xml:lang="en">Special Bench</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#State -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#State">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Location"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Participants"/>
-        <rdfs:comment xml:lang="en">represents state name/location</rdfs:comment>
-        <rdfs:label xml:lang="en">State</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Sub_Court -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Sub_Court">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Civil"/>
-        <rdfs:comment xml:lang="en">second lower court in hierarchy at District level for civil cases</rdfs:comment>
-        <rdfs:label xml:lang="en">Sub Court</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Taluka -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Taluka">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Location"/>
-        <rdfs:comment xml:lang="en">represents taluka name/location</rdfs:comment>
-        <rdfs:label xml:lang="en">Taluka</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Tribunal_Bench -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Tribunal_Bench">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Bench"/>
-        <rdfs:comment xml:lang="en">Bench deals with tribunals cases</rdfs:comment>
-        <rdfs:label xml:lang="en">Tribunal Bench</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Tribunals -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Tribunals">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts"/>
-        <rdfs:comment xml:lang="en">institutions established for discharging judicial or quasi-judicial duties under the Government of India</rdfs:comment>
-        <rdfs:label xml:lang="en">Tribunals</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Witness -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Witness">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#NonLegal_Participants"/>
-        <rdfs:comment xml:lang="en">witness involved/presented in the case</rdfs:comment>
-        <rdfs:label xml:lang="en">Witness</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Writ_Jurisdiction -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Writ_Jurisdiction">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Jurisdiction"/>
-        <rdfs:comment xml:lang="en">jurisdiction type is a writ jurisdiction</rdfs:comment>
-        <rdfs:label xml:lang="en">Writ Jurisdiction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judicial_Magistrate_Court(First_Class) -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judicial_Magistrate_Court(First_Class)">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Criminal"/>
-        <rdfs:comment xml:lang="en">second lower court at distrcit level after districit level Session Court for criminal cases</rdfs:comment>
-        <rdfs:label xml:lang="en">Judicial Magistrate Court (First Class)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judicial_Magistrate_Court(Second_Class) -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judicial_Magistrate_Court(Second_Class)">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_for_Criminal"/>
-        <rdfs:comment xml:lang="en">lowest court after Judicial Magistrate Court (First Class) at distrcit level for criminal cases</rdfs:comment>
-        <rdfs:label xml:lang="en">Judicial Magistrate Court (Second Class)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Attempt_to_Commit_Murder -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Attempt_to_Commit_Murder"/>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Attempt_to_commit_Culpable_Homicide -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Attempt_to_commit_Culpable_Homicide"/>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Causing_death_by_negligence -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Causing_death_by_negligence"/>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Culpable_homicide_not_amounting_to_murder -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Culpable_homicide_not_amounting_to_murder"/>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Grievous_hurt -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Grievous_hurt"/>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Human_trafficking -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Human_trafficking"/>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Murder -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Murder"/>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Causing_injuries_due_to_rash_driving/rode_rage -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Causing_injuries_due_to_rash_driving/rode_rage"/>
-    
-
-
-    <!-- http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Kidnapping_&amp;_Abduction -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Kidnapping_&amp;_Abduction"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Accussed"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Appellant"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Petitioner"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Plaintiff"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Respondent"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Witness"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Acts"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Author"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Bench"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Case_Type"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Court_Decision"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Documents"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Evidence"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Jurisdiction"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Legal_Participants"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Location"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#NonLegal_Participants"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Participants"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Precedent_Case"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Advisory_Jurisdiction"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Appellant_Jurisdiction"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Original_Jurisdiction"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Review_Jurisdiction"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Appeal"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Court_Judgements"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#FIR"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Others"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Petition"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Chief_Meterpolitan_Court"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Metropolitan_Magistrate_Courts"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Session_Court"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judicial_Magistrate_Court(First_Class)"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judicial_Magistrate_Court(Second_Class)"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#City_Civil_Courts"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Courts_of_Smaller_Causes"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#District_Court"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Munsif_Court"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Principal_Junior_Civil_Court"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Sub_Court"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Country"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#District"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Place"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#State"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Taluka"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Government"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Group"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Individual"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Organization"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#State"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Investigator"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Judge"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#Solicitor"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#caseBelongsToType"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#documentType"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasActs"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasAdvisoryJurisdiction"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasAppellantJurisdiction"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasAuthor"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasBench"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCourtDecision"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasCourts"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasEvidenceLocation"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasEvidences"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasIndividual"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasLegalParticipants"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasLocation"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasNonLegalParticipants"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasOriginalJurisdiction"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasParticipantType"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasPrecedentCase"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#hasReviewJurisdiction"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pooja/ontologies/2022/0/NyayaKshetraSchema#isA"/>
-        </owl:members>
-    </rdf:Description>
-</rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
